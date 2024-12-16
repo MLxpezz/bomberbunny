@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 @export var speed = 300.0;
+@export var map: TileMapLayer
 
 @onready var animation: AnimatedSprite2D = $"AnimatedSprite2D";
 
